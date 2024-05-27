@@ -41,7 +41,7 @@ npm start
 ```
 
 ## Using a Proxy
-To use a proxy, pass true to the scrape method:
+To use a proxy, pass true to the scrape method and update proxy in config file:
 
 ```bash
 const restaurants = await scraper.scrape(location, true);
