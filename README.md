@@ -37,14 +37,14 @@ A web scraper for GrabFood that extracts restaurant data from a specific locatio
 Start the scraping process:
 
 ```bash
-npm start
+npm start```
 
-**## Using a Proxy**
+## Using a Proxy
 To use a proxy, pass true to the scrape method:
 
 ```const restaurants = await scraper.scrape(location, true);```
 
-**## Changing the Location**
+## Changing the Location
 You can change the location by modifying the location variable:
 
 ```const location = 'New Location Address';```
